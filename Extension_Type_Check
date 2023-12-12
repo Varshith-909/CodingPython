@@ -1,0 +1,13 @@
+Date = input("Input a Date in the format(DD|MM|YYYY): ")
+
+Date = Date.split("|")
+
+Day = Date[0]
+Day = int(Day)
+
+Month = Date[1]
+Month = int(Month)
+
+Year = Date[2]
+Year = int(Year)
+
